@@ -41,8 +41,8 @@ function Header() {
         </div>
         <img className='m-auto my-16' src={divid} alt="" />
       </div>
-      <div className='rounded-[100%] p-5 flex justify-center bg-neon m-auto w-16' style={{position: 'relative', bottom: '30px'}}>
-      <button className='w-5 m-auto bg-neon' onClick={fetchdata}><img src={dice} alt="" /></button>
+      <div className='rounded-[100%] p-5 flex btn justify-center bg-neon m-auto w-16' style={{position: 'relative', bottom: '30px'}}>
+      <button className='w-5 m-auto bg-neon ' onClick={fetchdata}><img src={dice} alt="" /></button>
       </div>
       </section>
     </section>

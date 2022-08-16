@@ -11,6 +11,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.btn:hover{
+  background-color: hsl(150, 100%, 66%);
+  box-shadow: 0 0 20px 2px hsl(150, 100%, 66%);    
+}
+
+.btn:focus{
+  background-color: hsl(150, 100%, 66%);     
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
